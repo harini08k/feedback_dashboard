@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submit Feedback</title>
+</head>
+<body>
+    <h2>Submit Feedback</h2>
+    <form id="feedbackForm">
+        <label>Rating (1-5):</label><br>
+        <input type="number" name="rating" min="1" max="5" required><br><br>
+
+        <label>Comment:</label><br>
+        <textarea name="comment" required></textarea><br><br>
+
+        <label>Sentiment (optional):</label><br>
+        <input type="text" name="sentiment"><br><br>
+
+        <label>Keywords (comma separated, optional):</label><br>
+        <input type="text" name="keywords"><br><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
