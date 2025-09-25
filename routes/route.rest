@@ -1,0 +1,39 @@
+GET http://localhost:3000/feedbacks
+
+
+
+
+###
+GET http://localhost:3000/feedbacks/68d4be244c7ca729f1761535
+
+###
+POST http://localhost:3000/feedbacks
+Content-Type: application/json
+
+{
+    "rating":5,
+    "comment":"The project looks amazing",
+    "sentiment": "positive",        
+    "keywords": ["amazing","project"]
+
+}
+
+###
+DELETE http://localhost:3000/feedbacks/68d4bf834c7ca729f176153a
+
+
+###
+PATCH http://localhost:3000/feedbacks/68d4c931857bf534aad1449a
+Content-Type: application/json
+
+{
+    "rating":3,
+    "comment": "Updated comment",
+    "sentiment": "neutral",
+    "keywords": ["updated","feedback"]
+    
+
+}
+
+
+    
