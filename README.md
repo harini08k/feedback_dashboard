@@ -27,15 +27,15 @@ A full-stack application for collecting, storing, and analyzing user feedback. T
 ```
 .
 ├── models/
-│   └── feedback.js      # Mongoose schema for feedback :contentReference[oaicite:1]{index=1}
+│   └── feedback.js       # Mongoose schema for feedback :contentReference[oaicite:1]{index=1}
 ├── routes/
-│   └── feedbacks.js     # Feedback API routes (CRUD + filtering) :contentReference[oaicite:2]{index=2}
-│   └── route.rest       # REST client file for testing API endpoints
+│   └── feedbacks.js      # Feedback API routes (CRUD + filtering) :contentReference[oaicite:2]{index=2}
+│   └── route.rest        # REST client file for testing API endpoints
 ├── frontend/
 │    └── index.html       # Frontend form to submit feedback :contentReference[oaicite:3]{index=3}
-│    └── dashboard.html       # Dashboard to view/filter feedback :contentReference[oaicite:4]{index=4}
-│    └── script.js            # Handles form submission & dashboard logic :contentReference[oaicite:5]{index=5}
-└── server.js            # Main Express server entrypoint :contentReference[oaicite:0]{index=0}
+│    └── dashboard.html   # Dashboard to view/filter feedback :contentReference[oaicite:4]{index=4}
+│    └── script.js        # Handles form submission & dashboard logic :contentReference[oaicite:5]{index=5}
+└── server.js             # Main Express server entrypoint :contentReference[oaicite:0]{index=0}
 
 ```
 
@@ -142,5 +142,3 @@ Data is automatically fetched and displayed in a table.
 
 **Harini Karthikeyan**
 [GitHub Profile](https://github.com/harini08k)
-
----
